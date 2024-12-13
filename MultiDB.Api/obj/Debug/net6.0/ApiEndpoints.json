@@ -1,0 +1,148 @@
+[
+  {
+    "ContainingType": "MultiDB.Api.Controllers.ClientsController",
+    "Method": "CreateClients",
+    "RelativePath": "api/Clients/CreateClients",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientsDTO",
+        "Type": "MultiDB.DTO.ClientsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiDB.Api.Controllers.ClientsController",
+    "Method": "CreateClientUsers",
+    "RelativePath": "api/Clients/CreateClientUsers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientUserDTO",
+        "Type": "MultiDB.DTO.ClientUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiDB.Api.Controllers.ClientsController",
+    "Method": "CreateUsers",
+    "RelativePath": "api/Clients/CreateUsers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDTO",
+        "Type": "MultiDB.DTO.UsersDetailsDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiDB.Api.Controllers.ClientsController",
+    "Method": "Decrypt",
+    "RelativePath": "api/Clients/Decrypt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sText",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiDB.Api.Controllers.ClientsController",
+    "Method": "Encrypt",
+    "RelativePath": "api/Clients/Encrypt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiDB.Api.Controllers.ClientsController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Clients/GetAllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiDB.Api.Controllers.ClientsController",
+    "Method": "GetClientDetails",
+    "RelativePath": "api/Clients/GetClientDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiDB.Api.Controllers.ClientsController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Clients/GetUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiDB.Api.Controllers.ClientsController",
+    "Method": "LoginDetails",
+    "RelativePath": "api/Clients/LoginDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sUserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MultiDB.Api.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MultiDB.Api.WeatherForecast, MultiDB.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

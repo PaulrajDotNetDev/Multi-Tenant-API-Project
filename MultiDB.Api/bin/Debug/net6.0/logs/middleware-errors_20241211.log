@@ -1,0 +1,135 @@
+Timestamp: 12/11/2024 9:55:57 AM
+Request Path: /api/Clients/Decrypt
+Query String: ?sText=X24V5oNi/ICTPG5skYAfhThQ0ciDFWWABmM+I4fwCnK7Zk2mWjrq/kZZ+tnwDo5W1RwWxgH6DGqsM2fHAmWAD4aCxwOUS23ahza9IOerFejBdo3aZ+Q/15HtOr8E76bDDLr70injMxaqVukSPAUZW29OazbMbHwp5fQV9V1utZSV+JQVThz+c+pi0Py63FUePJ8a0bWhMBqGcqpEUUYVnmAJL6PGitX7j4ly8i+qYYI41yaTofiGm7HWl+nzezaMmG6iDsFN/Mte2t0xNovwkdmS8ql8vaNU9TS4N+cLPAKpCjrPFRR+WFWEcRf3XqmA
+Exception Message: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+Stack Trace:    at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at EncryptionHelper.Decrypt(String cipherText) in D:\rstack\MultiDB\MultiDB.Service\Helpers\EncryptionHelper.cs:line 45
+   at MultiDB.Api.Controllers.ClientsController.Decrypt(String sText) in D:\rstack\MultiDB\MultiDB.Api\Controllers\ClientsController.cs:line 76
+   at lambda_method4(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ErrorLoggingMiddleware.InvokeAsync(HttpContext context) in D:\rstack\MultiDB\MultiDB.Service\Helpers\ErrorLoggingMiddleware.cs:line 24
+--------------------------------------------------------------------------------
+Timestamp: 12/11/2024 12:54:32 PM
+Request Path: /api/Clients/Decrypt
+Query String: ?sText=vqTD9rcgjWiexYZuSlRtYa2DBDshqYB+yIDdOWuDU9GiKkQnrnyTVU1aGn3D0fsofxt2akdvPXeTKelptXyoBY0hz2AOjr+E2DigC2utOrwHt83C52rF6GBqH6TTFSAyk8yTt5yujwgkfdZYMeRcq/yr+0gHLQLIcCJ2tiMTzNKnrvjJIQefTZRgYCwYnGLq0wp6wGdvgPA8hUHzbqnqK7V/0q2CRiZOxy3waFM3ZDG6SI6bSq2O48IRs6HFGldlQ9RnswsZ46//KpENg0HIgzhbzXBwULgXdWYYdhcjrwH90/8OASi8zKY1gpv/T4x5
+Exception Message: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+Stack Trace:    at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at EncryptionHelper.Decrypt(String cipherText) in D:\rstack\MultiDB\MultiDB.Service\Helpers\EncryptionHelper.cs:line 45
+   at MultiDB.Api.Controllers.ClientsController.Decrypt(String sText) in D:\rstack\MultiDB\MultiDB.Api\Controllers\ClientsController.cs:line 76
+   at lambda_method16(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ErrorLoggingMiddleware.InvokeAsync(HttpContext context) in D:\rstack\MultiDB\MultiDB.Service\Helpers\ErrorLoggingMiddleware.cs:line 24
+--------------------------------------------------------------------------------
+Timestamp: 12/11/2024 12:55:54 PM
+Request Path: /api/Clients/Decrypt
+Query String: ?sText=vqTD9rcgjWiexYZuSlRtYa2DBDshqYB+yIDdOWuDU9GiKkQnrnyTVU1aGn3D0fsofxt2akdvPXeTKelptXyoBY0hz2AOjr+E2DigC2utOrwHt83C52rF6GBqH6TTFSAyk8yTt5yujwgkfdZYMeRcq/yr+0gHLQLIcCJ2tiMTzNKnrvjJIQefTZRgYCwYnGLq0wp6wGdvgPA8hUHzbqnqK7V/0q2CRiZOxy3waFM3ZDG6SI6bSq2O48IRs6HFGldlQ9RnswsZ46//KpENg0HIgzhbzXBwULgXdWYYdhcjrwH90/8OASi8zKY1gpv/T4x5
+Exception Message: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+Stack Trace:    at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at EncryptionHelper.Decrypt(String cipherText) in D:\rstack\MultiDB\MultiDB.Service\Helpers\EncryptionHelper.cs:line 45
+   at MultiDB.Api.Controllers.ClientsController.Decrypt(String sText) in D:\rstack\MultiDB\MultiDB.Api\Controllers\ClientsController.cs:line 76
+   at lambda_method16(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ErrorLoggingMiddleware.InvokeAsync(HttpContext context) in D:\rstack\MultiDB\MultiDB.Service\Helpers\ErrorLoggingMiddleware.cs:line 24
+--------------------------------------------------------------------------------
+Timestamp: 12/11/2024 12:55:55 PM
+Request Path: /api/Clients/Decrypt
+Query String: ?sText=vqTD9rcgjWiexYZuSlRtYa2DBDshqYB+yIDdOWuDU9GiKkQnrnyTVU1aGn3D0fsofxt2akdvPXeTKelptXyoBY0hz2AOjr+E2DigC2utOrwHt83C52rF6GBqH6TTFSAyk8yTt5yujwgkfdZYMeRcq/yr+0gHLQLIcCJ2tiMTzNKnrvjJIQefTZRgYCwYnGLq0wp6wGdvgPA8hUHzbqnqK7V/0q2CRiZOxy3waFM3ZDG6SI6bSq2O48IRs6HFGldlQ9RnswsZ46//KpENg0HIgzhbzXBwULgXdWYYdhcjrwH90/8OASi8zKY1gpv/T4x5
+Exception Message: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+Stack Trace:    at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at EncryptionHelper.Decrypt(String cipherText) in D:\rstack\MultiDB\MultiDB.Service\Helpers\EncryptionHelper.cs:line 45
+   at MultiDB.Api.Controllers.ClientsController.Decrypt(String sText) in D:\rstack\MultiDB\MultiDB.Api\Controllers\ClientsController.cs:line 76
+   at lambda_method16(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ErrorLoggingMiddleware.InvokeAsync(HttpContext context) in D:\rstack\MultiDB\MultiDB.Service\Helpers\ErrorLoggingMiddleware.cs:line 24
+--------------------------------------------------------------------------------
+Timestamp: 12/11/2024 1:07:21 PM
+Request Path: /api/Clients/Decrypt
+Query String: ?sText=Zl0OnEKdsKb/outlGgiYdo26kExxbktXSnsyK8La5JJ/oxvdRKfZz5GtNREiqyzi+wdc2KhplI57ppRXIL6BLlxWqXU/b47vAPkcosvld8z7ZrKrbzuq+3rebrOcYCoGk0BLv9Ld6mHNEabez4SHAyIvturtXwdVe8CbJQzrDje6cF99+BqjqDS5kmorM9dQyUT4Nl436ifyNf6bDhCKPg==
+Exception Message: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+Stack Trace:    at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at EncryptionHelper.Decrypt(String cipherText) in D:\rstack\MultiDB\MultiDB.Service\Helpers\EncryptionHelper.cs:line 45
+   at MultiDB.Api.Controllers.ClientsController.Decrypt(String sText) in D:\rstack\MultiDB\MultiDB.Api\Controllers\ClientsController.cs:line 76
+   at lambda_method17(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ErrorLoggingMiddleware.InvokeAsync(HttpContext context) in D:\rstack\MultiDB\MultiDB.Service\Helpers\ErrorLoggingMiddleware.cs:line 24
+--------------------------------------------------------------------------------

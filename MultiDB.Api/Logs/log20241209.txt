@@ -1,0 +1,53 @@
+2024-12-09 18:58:06.665 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-09 18:58:07.045 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-09 18:58:07.045 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-09 18:58:07.048 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-09 18:58:07.048 +05:30 [INF] Hosting environment: Development
+2024-12-09 18:58:07.048 +05:30 [INF] Content root path: D:\rstack\MultiDB\MultiDB.Api\
+2024-12-09 18:58:07.906 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-09 18:58:08.423 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 521.1472ms
+2024-12-09 18:58:08.428 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-09 18:58:08.445 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 16.9877ms
+2024-12-09 18:58:08.485 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-09 18:58:08.510 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.9398ms
+2024-12-09 18:58:08.726 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-09 18:58:08.843 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 116.7281ms
+2024-12-09 18:58:51.813 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7136/api/Clients/DecriptText?sText=kfXLL7Pj5jqN3JcpMRVjySGJuSf71HzB7P2XF+3XNtuk2hg1rCttEzl0jr4T3qj/VM48rR1xG/VFI4T+gPgRrGJ+rrhNmW7cN4SnmTJVFxDQO1vMNmT2MkaGPdBKwvnTFTGJUyvQPE2Ikxx7DrovrBSoZf/MjFziqraUBl+IW7SPfoyTnYQn74Hzki7pkyBGhWmh8G0RZqja13ooAkWMWn8Q0rIWSEAYxx/JVnimmeSQPh+47qrBWXK68w1lnuzG9kTQMhjjsINpYwXSG+T2OhsZnWptwgneXojnO5CvqJKFD4VQ076ekzmGWhzWacSo4CeYT4SCmYWoLgLmEurPQeKK78Tg0AxOhg4DNQb7R/VrjRbSdNyezNCiOJDhC39cVn0LSLFVjbG90w3NA6dF/alnGCxhV9Tpgxq3qtxEOUMIvMQET4xcga62uGlm8JuNv3HkLaC4tuR1O1xpBSGO72ixQ7lPnR812Ij+FhBRMSgAmi5qXuwJZaqhOyjZ9LTY8sx6+HSkfd9JFGyaATRYHDv14cG1qWfqpz8LAZ1ClM2kve/t1e98sabnQ0Ry7xuExDmoh8KGbnDurSRcSFaMIBgFh9tZFdRA1gJ5f2VTSYdRztIDZ7Y4q3o79Whfs4xVnPSWgmW3JN6LC2UOwuDWkISKxLEQiHIYGqfpPojL710SousNsy3PxOQO/Xi8WBELGLaLr7bWydXQ0XNKBgPDq20QF0QcJiHBgt18N/fbkmb6Qw1UcShhbW26pDtpdgd0rchHJkQpCV0rkfs/a6vEFv7SHR//kUBvNAuWa9mUhDaix8Z0a1BnXm3t7BbxZI3ejdeCC7ZcXt+wzJRuJ0Q/TltBG8V+fGYBdLw8jBEbw8kUzmqgxg8MpA0p0A8WKIKH0qp4MgvBsI+IMKQqHanulDE8BHxsBEXrGGrHLSLD8CHd3VBneyjyGQ8A8dnN5qKPvHRVHXG8MS4zOr6fbIUQVm0qNM2ckunY8jJ7v3+S4Dbr/eWA/Xw+g/DEkdubLuw+/Hvcpu1dgHg7VNd/HTqR+ERooR0uKJtRtpXk479c6ZMz05hW8Q2unClUdXjsKYjTsiKvYirxO5gDKAQx4xmiJb0ZCr/pZ9mjIOIUiXQiPGrsWGqHGpMEPrL/Auq4B5Ufnqj4Y4XXsopI7M/svWtHmMFrwdP0SsnR+RonL3O047GKCj/pGmFEoeVONo8wlA74XKoRmkL4JihSkTqqDFjR3Qo7ya1PRmTmiq3Z0tgYBhh/a9foYH7ZhbsPNRPDPoS4 - -
+2024-12-09 18:58:57.636 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.DecriptText (MultiDB.Api)'
+2024-12-09 18:58:57.670 +05:30 [INF] Route matched with {action = "DecriptText", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult DecriptText(System.String) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-09 18:59:01.471 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.DecriptText (MultiDB.Api) in 3797.3827ms
+2024-12-09 18:59:01.522 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.DecriptText (MultiDB.Api)'
+2024-12-09 18:59:01.618 +05:30 [ERR] An unexpected error occurred
+System.Exception: Decryption failed
+ ---> System.Security.Cryptography.CryptographicException: The input data is not a complete block.
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(ReadOnlySpan`1 inputBuffer, Span`1 outputBuffer)
+   at Internal.Cryptography.UniversalCryptoDecryptor.UncheckedTransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at Internal.Cryptography.UniversalCryptoTransform.TransformFinalBlock(Byte[] inputBuffer, Int32 inputOffset, Int32 inputCount)
+   at System.Security.Cryptography.CryptoStream.ReadAsyncCore(Memory`1 buffer, CancellationToken cancellationToken, Boolean useAsync)
+   at System.Security.Cryptography.CryptoStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadToEnd()
+   at MultiDB.Service.Helpers.EncryptionHelper.Decrypt(String cipherText) in D:\rstack\MultiDB\MultiDB.Service\Helpers\EncryptionHelper.cs:line 69
+   --- End of inner exception stack trace ---
+   at MultiDB.Service.Helpers.EncryptionHelper.Decrypt(String cipherText) in D:\rstack\MultiDB\MultiDB.Service\Helpers\EncryptionHelper.cs:line 77
+   at MultiDB.Service.ClientServices.DecriptText(String sText) in D:\rstack\MultiDB\MultiDB.Service\ClientServices.cs:line 98
+   at MultiDB.Api.Controllers.ClientsController.DecriptText(String sText) in D:\rstack\MultiDB\MultiDB.Api\Controllers\ClientsController.cs:line 56
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ErrorLoggingMiddleware.InvokeAsync(HttpContext context) in D:\rstack\MultiDB\MultiDB.Service\Helpers\ErrorLoggingMiddleware.cs:line 21
+2024-12-09 18:59:01.704 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7136/api/Clients/DecriptText?sText=kfXLL7Pj5jqN3JcpMRVjySGJuSf71HzB7P2XF+3XNtuk2hg1rCttEzl0jr4T3qj/VM48rR1xG/VFI4T+gPgRrGJ+rrhNmW7cN4SnmTJVFxDQO1vMNmT2MkaGPdBKwvnTFTGJUyvQPE2Ikxx7DrovrBSoZf/MjFziqraUBl+IW7SPfoyTnYQn74Hzki7pkyBGhWmh8G0RZqja13ooAkWMWn8Q0rIWSEAYxx/JVnimmeSQPh+47qrBWXK68w1lnuzG9kTQMhjjsINpYwXSG+T2OhsZnWptwgneXojnO5CvqJKFD4VQ076ekzmGWhzWacSo4CeYT4SCmYWoLgLmEurPQeKK78Tg0AxOhg4DNQb7R/VrjRbSdNyezNCiOJDhC39cVn0LSLFVjbG90w3NA6dF/alnGCxhV9Tpgxq3qtxEOUMIvMQET4xcga62uGlm8JuNv3HkLaC4tuR1O1xpBSGO72ixQ7lPnR812Ij+FhBRMSgAmi5qXuwJZaqhOyjZ9LTY8sx6+HSkfd9JFGyaATRYHDv14cG1qWfqpz8LAZ1ClM2kve/t1e98sabnQ0Ry7xuExDmoh8KGbnDurSRcSFaMIBgFh9tZFdRA1gJ5f2VTSYdRztIDZ7Y4q3o79Whfs4xVnPSWgmW3JN6LC2UOwuDWkISKxLEQiHIYGqfpPojL710SousNsy3PxOQO/Xi8WBELGLaLr7bWydXQ0XNKBgPDq20QF0QcJiHBgt18N/fbkmb6Qw1UcShhbW26pDtpdgd0rchHJkQpCV0rkfs/a6vEFv7SHR//kUBvNAuWa9mUhDaix8Z0a1BnXm3t7BbxZI3ejdeCC7ZcXt+wzJRuJ0Q/TltBG8V+fGYBdLw8jBEbw8kUzmqgxg8MpA0p0A8WKIKH0qp4MgvBsI+IMKQqHanulDE8BHxsBEXrGGrHLSLD8CHd3VBneyjyGQ8A8dnN5qKPvHRVHXG8MS4zOr6fbIUQVm0qNM2ckunY8jJ7v3+S4Dbr/eWA/Xw+g/DEkdubLuw+/Hvcpu1dgHg7VNd/HTqR+ERooR0uKJtRtpXk479c6ZMz05hW8Q2unClUdXjsKYjTsiKvYirxO5gDKAQx4xmiJb0ZCr/pZ9mjIOIUiXQiPGrsWGqHGpMEPrL/Auq4B5Ufnqj4Y4XXsopI7M/svWtHmMFrwdP0SsnR+RonL3O047GKCj/pGmFEoeVONo8wlA74XKoRmkL4JihSkTqqDFjR3Qo7ya1PRmTmiq3Z0tgYBhh/a9foYH7ZhbsPNRPDPoS4 - - - 500 - application/json 9890.7501ms

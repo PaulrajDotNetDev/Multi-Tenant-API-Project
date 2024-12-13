@@ -1,0 +1,42 @@
+2024-12-13 07:05:12.114 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-13 07:05:12.753 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-13 07:05:12.753 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-13 07:05:13.396 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 07:05:13.397 +05:30 [INF] Hosting environment: Development
+2024-12-13 07:05:13.397 +05:30 [INF] Content root path: F:\RStack\RND\MultiDB_2024_12_12v1\MultiDB\MultiDB.Api\
+2024-12-13 07:05:13.470 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger - -
+2024-12-13 07:05:13.794 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-13 07:05:13.795 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger - - - 301 0 - 329.2878ms
+2024-12-13 07:05:15.507 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 1713.1641ms
+2024-12-13 07:05:15.518 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/swagger-ui.css - -
+2024-12-13 07:05:15.518 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/swagger-ui-bundle.js - -
+2024-12-13 07:05:15.518 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/swagger-ui-standalone-preset.js - -
+2024-12-13 07:05:15.518 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-13 07:05:15.525 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 6.2040ms
+2024-12-13 07:05:15.535 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-13 07:05:15.582 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-12-13 07:05:15.585 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/swagger-ui.css - - - 200 144929 text/css 67.6093ms
+2024-12-13 07:05:15.604 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-12-13 07:05:15.604 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 86.1825ms
+2024-12-13 07:05:15.631 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-12-13 07:05:15.631 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 113.0782ms
+2024-12-13 07:05:15.667 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 131.6877ms
+2024-12-13 07:05:15.847 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-13 07:05:15.871 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/favicon-32x32.png - -
+2024-12-13 07:05:15.871 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-12-13 07:05:15.871 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/favicon-32x32.png - - - 200 628 image/png 0.6740ms
+2024-12-13 07:05:15.986 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 139.1455ms
+2024-12-13 07:24:06.974 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-13 07:24:08.261 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-13 07:24:08.262 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-13 07:24:08.829 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-13 07:24:08.830 +05:30 [INF] Hosting environment: Development
+2024-12-13 07:24:08.830 +05:30 [INF] Content root path: F:\RStack\RND\MultiDB_2024_12_12v1\MultiDB.Api\
+2024-12-13 07:24:12.027 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-13 07:24:12.951 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 942.9345ms
+2024-12-13 07:24:12.953 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-13 07:24:12.989 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 35.5252ms
+2024-12-13 07:24:13.009 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-13 07:24:13.154 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 144.6630ms
+2024-12-13 07:24:13.370 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-13 07:24:13.748 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 378.5102ms

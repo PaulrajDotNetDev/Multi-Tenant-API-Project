@@ -1,0 +1,472 @@
+2024-12-12 10:39:02.909 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 10:39:03.310 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-12 10:39:03.310 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-12 10:39:03.349 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 10:39:03.350 +05:30 [INF] Hosting environment: Development
+2024-12-12 10:39:03.350 +05:30 [INF] Content root path: D:\rstack\MultiDB\MultiDB.Api\
+2024-12-12 10:39:04.518 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-12 10:39:05.752 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 1238.4273ms
+2024-12-12 10:39:05.754 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-12 10:39:05.771 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 16.3592ms
+2024-12-12 10:39:05.808 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-12 10:39:05.855 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.7133ms
+2024-12-12 10:39:06.075 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-12 10:39:06.201 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 125.9341ms
+2024-12-12 10:41:14.721 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 10:41:14.963 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-12 10:41:14.963 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-12 10:41:14.966 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 10:41:14.967 +05:30 [INF] Hosting environment: Development
+2024-12-12 10:41:14.967 +05:30 [INF] Content root path: D:\rstack\MultiDB\MultiDB.Api\
+2024-12-12 10:41:15.530 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-12 10:41:15.876 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 349.2803ms
+2024-12-12 10:41:15.890 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-12 10:41:15.893 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 3.0305ms
+2024-12-12 10:41:15.920 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-12 10:41:15.936 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.8362ms
+2024-12-12 10:41:16.136 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-12 10:41:16.231 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 95.4931ms
+2024-12-12 10:42:01.386 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7136/api/Clients/CreateClients application/json 65
+2024-12-12 10:42:01.477 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 10:42:01.509 +05:30 [INF] Route matched with {action = "CreateClients", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClients(MultiDB.DTO.ClientsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 10:42:06.456 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 10:42:06.472 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api) in 4957.8735ms
+2024-12-12 10:42:06.474 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 10:42:06.474 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7136/api/Clients/CreateClients application/json 65 - 200 - application/json;+charset=utf-8 5087.9045ms
+2024-12-12 10:42:53.903 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7136/api/Clients/CreateClients application/json 65
+2024-12-12 10:42:53.908 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 10:42:53.911 +05:30 [INF] Route matched with {action = "CreateClients", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClients(MultiDB.DTO.ClientsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 10:44:08.688 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 10:44:08.688 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api) in 74775.3693ms
+2024-12-12 10:44:08.688 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 10:44:08.688 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7136/api/Clients/CreateClients application/json 65 - 200 - application/json;+charset=utf-8 74784.9948ms
+2024-12-12 10:44:20.758 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7136/api/Clients/GetClientDetails - -
+2024-12-12 10:44:20.760 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.GetClientDetails (MultiDB.Api)'
+2024-12-12 10:44:20.761 +05:30 [INF] Route matched with {action = "GetClientDetails", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientDetails() on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 10:44:22.597 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 10:44:22.597 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.GetClientDetails (MultiDB.Api) in 1836.4097ms
+2024-12-12 10:44:22.597 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.GetClientDetails (MultiDB.Api)'
+2024-12-12 10:44:22.597 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7136/api/Clients/GetClientDetails - - - 200 - application/json;+charset=utf-8 1838.7570ms
+2024-12-12 10:44:33.875 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/Decrypt?sText=vqTD9rcgjWiexYZuSlRtYa2DBDshqYB%2ByIDdOWuDU9GiKkQnrnyTVU1aGn3D0fsofxt2akdvPXeTKelptXyoBY0hz2AOjr%2BE2DigC2utOrwHt83C52rF6GBqH6TTFSAyk8yTt5yujwgkfdZYMeRcq%2Fyr%2B0gHLQLIcCJ2tiMTzNKnrvjJIQefTZRgYCwYnGLq0wp6wGdvgPA8hUHzbqnqK7V%2F0q2CRiZOxy3waFM3ZDG6SI6bSq2O48IRs6HFGldlQ9RnswsZ46%2F%2FKpENg0HIgzhbzXBwULgXdWYYdhcjrwH90%2F8OASi8zKY1gpv%2FT4x5 - -
+2024-12-12 10:44:33.875 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api)'
+2024-12-12 10:44:33.877 +05:30 [INF] Route matched with {action = "Decrypt", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Decrypt(System.String) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 10:44:33.886 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-12-12 10:44:33.886 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api) in 8.1941ms
+2024-12-12 10:44:33.886 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api)'
+2024-12-12 10:44:33.886 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/Decrypt?sText=vqTD9rcgjWiexYZuSlRtYa2DBDshqYB%2ByIDdOWuDU9GiKkQnrnyTVU1aGn3D0fsofxt2akdvPXeTKelptXyoBY0hz2AOjr%2BE2DigC2utOrwHt83C52rF6GBqH6TTFSAyk8yTt5yujwgkfdZYMeRcq%2Fyr%2B0gHLQLIcCJ2tiMTzNKnrvjJIQefTZRgYCwYnGLq0wp6wGdvgPA8hUHzbqnqK7V%2F0q2CRiZOxy3waFM3ZDG6SI6bSq2O48IRs6HFGldlQ9RnswsZ46%2F%2FKpENg0HIgzhbzXBwULgXdWYYdhcjrwH90%2F8OASi8zKY1gpv%2FT4x5 - - - 200 - text/plain;+charset=utf-8 10.6044ms
+2024-12-12 10:45:04.507 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7136/api/Clients/CreateUsers application/json 155
+2024-12-12 10:45:04.509 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateUsers (MultiDB.Api)'
+2024-12-12 10:45:04.511 +05:30 [INF] Route matched with {action = "CreateUsers", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUsers(MultiDB.DTO.UsersDetailsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 10:45:08.723 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 10:45:08.723 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateUsers (MultiDB.Api) in 4211.6306ms
+2024-12-12 10:45:08.723 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateUsers (MultiDB.Api)'
+2024-12-12 10:45:08.723 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7136/api/Clients/CreateUsers application/json 155 - 200 - application/json;+charset=utf-8 4216.7473ms
+2024-12-12 10:45:15.226 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7136/api/Clients/LoginDetails?sUserName=test2&sPassword=test@1234 - -
+2024-12-12 10:45:15.226 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.LoginDetails (MultiDB.Api)'
+2024-12-12 10:45:15.229 +05:30 [INF] Route matched with {action = "LoginDetails", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginDetails(System.String, System.String) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 10:45:15.268 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.ResponseToken'.
+2024-12-12 10:45:15.269 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.LoginDetails (MultiDB.Api) in 39.9091ms
+2024-12-12 10:45:15.269 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.LoginDetails (MultiDB.Api)'
+2024-12-12 10:45:15.269 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7136/api/Clients/LoginDetails?sUserName=test2&sPassword=test@1234 - - - 200 - application/json;+charset=utf-8 42.8671ms
+2024-12-12 10:45:33.963 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7136/api/Clients/CreateClientUsers application/json 102
+2024-12-12 10:45:34.023 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClientUsers (MultiDB.Api)'
+2024-12-12 10:45:34.029 +05:30 [INF] Route matched with {action = "CreateClientUsers", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClientUsers(MultiDB.DTO.ClientUserDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 10:45:38.602 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 10:45:38.602 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateClientUsers (MultiDB.Api) in 4573.587ms
+2024-12-12 10:45:38.602 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClientUsers (MultiDB.Api)'
+2024-12-12 10:45:38.602 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7136/api/Clients/CreateClientUsers application/json 102 - 200 - application/json;+charset=utf-8 4638.8439ms
+2024-12-12 10:45:47.661 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7136/api/Clients/GetUsers - -
+2024-12-12 10:45:47.662 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.GetUsers (MultiDB.Api)'
+2024-12-12 10:45:47.663 +05:30 [INF] Route matched with {action = "GetUsers", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 10:45:50.922 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 10:45:50.922 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.GetUsers (MultiDB.Api) in 3259.2783ms
+2024-12-12 10:45:50.922 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.GetUsers (MultiDB.Api)'
+2024-12-12 10:45:50.922 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7136/api/Clients/GetUsers - - - 200 - application/json;+charset=utf-8 3260.8642ms
+2024-12-12 10:46:03.788 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/Decrypt?sText=Zl0OnEKdsKb%2FoutlGgiYdo26kExxbktXSnsyK8La5JJ%2FoxvdRKfZz5GtNREiqyzi%2Bwdc2KhplI57ppRXIL6BLlxWqXU%2Fb47vAPkcosvld8z7ZrKrbzuq%2B3rebrOcYCoGk0BLv9Ld6mHNEabez4SHAyIvturtXwdVe8CbJQzrDje6cF99%2BBqjqDS5kmorM9dQyUT4Nl436ifyNf6bDhCKPg%3D%3D - -
+2024-12-12 10:46:03.789 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api)'
+2024-12-12 10:46:03.789 +05:30 [INF] Route matched with {action = "Decrypt", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Decrypt(System.String) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 10:46:03.789 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-12-12 10:46:03.789 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api) in 0.2269ms
+2024-12-12 10:46:03.789 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api)'
+2024-12-12 10:46:03.789 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/Decrypt?sText=Zl0OnEKdsKb%2FoutlGgiYdo26kExxbktXSnsyK8La5JJ%2FoxvdRKfZz5GtNREiqyzi%2Bwdc2KhplI57ppRXIL6BLlxWqXU%2Fb47vAPkcosvld8z7ZrKrbzuq%2B3rebrOcYCoGk0BLv9Ld6mHNEabez4SHAyIvturtXwdVe8CbJQzrDje6cF99%2BBqjqDS5kmorM9dQyUT4Nl436ifyNf6bDhCKPg%3D%3D - - - 200 - text/plain;+charset=utf-8 0.8396ms
+2024-12-12 11:13:34.531 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 11:13:34.942 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-12 11:13:34.942 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-12 11:13:34.945 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 11:13:34.945 +05:30 [INF] Hosting environment: Development
+2024-12-12 11:13:34.945 +05:30 [INF] Content root path: D:\rstack\MultiDB\MultiDB.Api\
+2024-12-12 11:13:35.482 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-12 11:13:35.875 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 397.3330ms
+2024-12-12 11:13:35.877 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-12 11:13:35.890 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 12.9264ms
+2024-12-12 11:13:35.920 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-12 11:13:35.938 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.2108ms
+2024-12-12 11:13:36.135 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-12 11:13:36.244 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.7019ms
+2024-12-12 11:49:17.690 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 11:49:17.875 +05:30 [INF] Creating key {f673a8cb-2179-446f-b074-0b6eebbb3fe3} with creation date 2024-12-12 06:19:17Z, activation date 2024-12-12 06:19:17Z, and expiration date 2025-03-12 06:19:17Z.
+2024-12-12 11:49:17.883 +05:30 [INF] Writing data to file 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys\key-f673a8cb-2179-446f-b074-0b6eebbb3fe3.xml'.
+2024-12-12 11:49:18.236 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-12 11:49:18.236 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-12 11:49:18.405 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 11:49:18.405 +05:30 [INF] Hosting environment: Development
+2024-12-12 11:49:18.405 +05:30 [INF] Content root path: F:\RStack\RND\MultiDB_2024_12_12v1\MultiDB\MultiDB.Api\
+2024-12-12 11:49:19.002 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger - -
+2024-12-12 11:49:19.308 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger - - - 301 0 - 311.1761ms
+2024-12-12 11:49:19.310 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-12 11:49:19.398 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 87.7879ms
+2024-12-12 11:49:19.406 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/swagger-ui.css - -
+2024-12-12 11:49:19.406 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/swagger-ui-bundle.js - -
+2024-12-12 11:49:19.406 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/swagger-ui-standalone-preset.js - -
+2024-12-12 11:49:19.406 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-12 11:49:19.408 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-12 11:49:19.414 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 8.0062ms
+2024-12-12 11:49:19.477 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-12-12 11:49:19.477 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-12-12 11:49:19.485 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/swagger-ui.css - - - 200 144929 text/css 79.0159ms
+2024-12-12 11:49:19.485 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 78.7939ms
+2024-12-12 11:49:19.498 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-12-12 11:49:19.498 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 92.2948ms
+2024-12-12 11:49:19.518 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 111.1581ms
+2024-12-12 11:49:19.850 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-12 11:49:19.871 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/favicon-32x32.png - -
+2024-12-12 11:49:19.871 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-12-12 11:49:19.871 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/favicon-32x32.png - - - 200 628 image/png 0.3817ms
+2024-12-12 11:49:19.982 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 131.8340ms
+2024-12-12 11:49:37.319 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57
+2024-12-12 11:49:37.431 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 11:49:37.463 +05:30 [INF] Route matched with {action = "CreateClients", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClients(MultiDB.DTO.ClientsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 11:52:50.879 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 11:52:51.157 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-12 11:52:51.157 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-12 11:52:51.294 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 11:52:51.294 +05:30 [INF] Hosting environment: Development
+2024-12-12 11:52:51.294 +05:30 [INF] Content root path: F:\RStack\RND\MultiDB_2024_12_12v1\MultiDB\MultiDB.Api\
+2024-12-12 11:52:51.676 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-12 11:52:51.954 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 282.1371ms
+2024-12-12 11:52:51.957 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-12 11:52:51.962 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-12 11:52:51.971 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 13.2241ms
+2024-12-12 11:52:52.024 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 62.1743ms
+2024-12-12 11:52:52.261 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-12 11:52:52.381 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 119.9946ms
+2024-12-12 11:53:00.566 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57
+2024-12-12 11:53:00.654 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 11:53:00.680 +05:30 [INF] Route matched with {action = "CreateClients", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClients(MultiDB.DTO.ClientsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 11:53:08.056 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 11:53:08.067 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api) in 7381.1311ms
+2024-12-12 11:53:08.070 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 11:53:08.070 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57 - 200 - application/json;+charset=utf-8 7504.3250ms
+2024-12-12 11:53:26.145 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57
+2024-12-12 11:53:26.147 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 11:53:26.148 +05:30 [INF] Route matched with {action = "CreateClients", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClients(MultiDB.DTO.ClientsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 11:56:42.909 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 11:56:43.219 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-12 11:56:43.219 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-12 11:56:43.529 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 11:56:43.529 +05:30 [INF] Hosting environment: Development
+2024-12-12 11:56:43.529 +05:30 [INF] Content root path: F:\RStack\RND\MultiDB_2024_12_12v1\MultiDB\MultiDB.Api\
+2024-12-12 11:56:43.574 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-12 11:56:43.861 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 291.1689ms
+2024-12-12 11:56:43.863 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-12 11:56:43.863 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-12 11:56:43.867 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 4.4932ms
+2024-12-12 11:56:43.937 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 74.1239ms
+2024-12-12 11:56:44.123 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-12 11:56:44.271 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 147.8214ms
+2024-12-12 11:56:51.309 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57
+2024-12-12 11:56:52.210 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 11:56:52.251 +05:30 [INF] Route matched with {action = "CreateClients", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClients(MultiDB.DTO.ClientsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 11:56:56.936 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 11:56:56.942 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api) in 4686.2388ms
+2024-12-12 11:56:56.943 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 11:56:56.943 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57 - 200 - application/json;+charset=utf-8 5634.3637ms
+2024-12-12 11:57:00.357 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57
+2024-12-12 11:57:00.359 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 11:57:00.359 +05:30 [INF] Route matched with {action = "CreateClients", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClients(MultiDB.DTO.ClientsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 11:57:15.904 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 11:57:15.904 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api) in 15544.9484ms
+2024-12-12 11:57:15.904 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 11:57:15.904 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57 - 200 - application/json;+charset=utf-8 15547.2605ms
+2024-12-12 11:57:17.830 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57
+2024-12-12 11:57:17.832 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 11:57:17.832 +05:30 [INF] Route matched with {action = "CreateClients", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClients(MultiDB.DTO.ClientsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 11:59:49.030 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 11:59:49.038 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api) in 151205.1076ms
+2024-12-12 11:59:49.039 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 11:59:49.042 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57 - 200 - application/json;+charset=utf-8 151211.8277ms
+2024-12-12 11:59:51.124 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57
+2024-12-12 11:59:51.125 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 11:59:51.125 +05:30 [INF] Route matched with {action = "CreateClients", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClients(MultiDB.DTO.ClientsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:01:15.340 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 12:01:15.597 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-12 12:01:15.597 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-12 12:01:15.717 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 12:01:15.718 +05:30 [INF] Hosting environment: Development
+2024-12-12 12:01:15.718 +05:30 [INF] Content root path: F:\RStack\RND\MultiDB_2024_12_12v1\MultiDB\MultiDB.Api\
+2024-12-12 12:01:16.237 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-12 12:01:16.471 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 236.5908ms
+2024-12-12 12:01:16.491 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-12 12:01:16.491 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-12 12:01:16.502 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 11.4730ms
+2024-12-12 12:01:16.557 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.1893ms
+2024-12-12 12:01:16.700 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-12 12:01:16.796 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 95.7539ms
+2024-12-12 12:01:43.024 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57
+2024-12-12 12:01:43.119 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 12:01:43.148 +05:30 [INF] Route matched with {action = "CreateClients", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClients(MultiDB.DTO.ClientsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:02:43.225 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 12:02:43.512 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-12 12:02:43.512 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-12 12:02:43.880 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 12:02:43.881 +05:30 [INF] Hosting environment: Development
+2024-12-12 12:02:43.881 +05:30 [INF] Content root path: F:\RStack\RND\MultiDB_2024_12_12v1\MultiDB\MultiDB.Api\
+2024-12-12 12:02:43.995 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-12 12:02:44.255 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 264.4567ms
+2024-12-12 12:02:44.259 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-12 12:02:44.263 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-12 12:02:44.268 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 8.1971ms
+2024-12-12 12:02:44.323 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 63.3229ms
+2024-12-12 12:02:44.481 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-12 12:02:44.588 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.3325ms
+2024-12-12 12:02:52.016 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57
+2024-12-12 12:02:52.112 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 12:02:52.138 +05:30 [INF] Route matched with {action = "CreateClients", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClients(MultiDB.DTO.ClientsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:02:58.232 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 12:02:58.238 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api) in 6095.1678ms
+2024-12-12 12:02:58.239 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 12:02:58.239 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57 - 200 - application/json;+charset=utf-8 6223.5329ms
+2024-12-12 12:04:53.991 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57
+2024-12-12 12:04:53.999 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 12:04:53.999 +05:30 [INF] Route matched with {action = "CreateClients", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClients(MultiDB.DTO.ClientsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:05:00.859 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 12:05:00.859 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api) in 6859.942ms
+2024-12-12 12:05:00.859 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 12:05:00.859 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57 - 200 - application/json;+charset=utf-8 6868.4109ms
+2024-12-12 12:05:06.374 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57
+2024-12-12 12:05:06.376 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 12:05:06.376 +05:30 [INF] Route matched with {action = "CreateClients", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClients(MultiDB.DTO.ClientsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:07:01.482 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 12:07:01.761 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-12 12:07:01.761 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-12 12:07:01.884 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 12:07:01.884 +05:30 [INF] Hosting environment: Development
+2024-12-12 12:07:01.884 +05:30 [INF] Content root path: F:\RStack\RND\MultiDB_2024_12_12v1\MultiDB\MultiDB.Api\
+2024-12-12 12:07:02.198 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-12 12:07:02.454 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 259.8234ms
+2024-12-12 12:07:02.464 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-12 12:07:02.464 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-12 12:07:02.467 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 3.2904ms
+2024-12-12 12:07:02.518 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.2128ms
+2024-12-12 12:07:02.670 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-12 12:07:02.763 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 93.0442ms
+2024-12-12 12:07:49.069 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57
+2024-12-12 12:07:49.165 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 12:07:49.192 +05:30 [INF] Route matched with {action = "CreateClients", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClients(MultiDB.DTO.ClientsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:07:53.738 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 12:07:53.747 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api) in 4548.5231ms
+2024-12-12 12:07:53.749 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 12:07:53.749 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57 - 200 - application/json;+charset=utf-8 4680.0122ms
+2024-12-12 12:08:07.529 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/GetClientDetails - -
+2024-12-12 12:08:07.536 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.GetClientDetails (MultiDB.Api)'
+2024-12-12 12:08:07.539 +05:30 [INF] Route matched with {action = "GetClientDetails", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientDetails() on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:08:09.248 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 12:08:09.248 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.GetClientDetails (MultiDB.Api) in 1708.7102ms
+2024-12-12 12:08:09.248 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.GetClientDetails (MultiDB.Api)'
+2024-12-12 12:08:09.248 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/GetClientDetails - - - 200 - application/json;+charset=utf-8 1719.6788ms
+2024-12-12 12:08:26.573 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/Decrypt?sText=vqTD9rcgjWiexYZuSlRtYdWZLAhM%2Bvi5iBM%2FEXqAkoArb66enAl81dFWCabmql3dYiFIUb7ngWXt0s84X6s8S2I5xjZ7pcNv6vsdC1Gl9iQ2rETxQx4a373TftJd7y5NXE9Ctmf%2FiHkHJqH5nbIoU%2FoAlB659BO%2B82tjBbd2ZJhCgMnaUcs1CAqOad9TMl2iScASQNgqnd0RlWVS1yzt4pKliiG5dcL37Edb95hsJ7ayLV65KaiE7idI1Nz7R2j0pRmLLIl%2B%2BCXbVlL5Hk1oGiJ9C6RfRnkjiMOIGQO%2F5Tc2ISyezk7o%2F2Zb4wb5Ii2f - -
+2024-12-12 12:08:26.575 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api)'
+2024-12-12 12:08:26.579 +05:30 [INF] Route matched with {action = "Decrypt", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Decrypt(System.String) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:08:26.592 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-12-12 12:08:26.592 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api) in 13.2362ms
+2024-12-12 12:08:26.592 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api)'
+2024-12-12 12:08:26.592 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/Decrypt?sText=vqTD9rcgjWiexYZuSlRtYdWZLAhM%2Bvi5iBM%2FEXqAkoArb66enAl81dFWCabmql3dYiFIUb7ngWXt0s84X6s8S2I5xjZ7pcNv6vsdC1Gl9iQ2rETxQx4a373TftJd7y5NXE9Ctmf%2FiHkHJqH5nbIoU%2FoAlB659BO%2B82tjBbd2ZJhCgMnaUcs1CAqOad9TMl2iScASQNgqnd0RlWVS1yzt4pKliiG5dcL37Edb95hsJ7ayLV65KaiE7idI1Nz7R2j0pRmLLIl%2B%2BCXbVlL5Hk1oGiJ9C6RfRnkjiMOIGQO%2F5Tc2ISyezk7o%2F2Zb4wb5Ii2f - - - 200 - text/plain;+charset=utf-8 19.7488ms
+2024-12-12 12:08:53.165 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7136/api/Clients/CreateUsers application/json 147
+2024-12-12 12:08:53.171 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateUsers (MultiDB.Api)'
+2024-12-12 12:08:53.175 +05:30 [INF] Route matched with {action = "CreateUsers", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateUsers(MultiDB.DTO.UsersDetailsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:08:55.568 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 12:08:55.568 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateUsers (MultiDB.Api) in 2392.6379ms
+2024-12-12 12:08:55.568 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateUsers (MultiDB.Api)'
+2024-12-12 12:08:55.568 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7136/api/Clients/CreateUsers application/json 147 - 200 - application/json;+charset=utf-8 2403.0096ms
+2024-12-12 12:09:32.958 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/GetUsers - -
+2024-12-12 12:09:32.972 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-12 12:09:32.981 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-12-12 12:09:32.981 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/GetUsers - - - 401 0 - 23.0779ms
+2024-12-12 12:10:09.798 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/GetAllUsers - -
+2024-12-12 12:10:09.802 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-12 12:10:09.802 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-12-12 12:10:09.803 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/GetAllUsers - - - 401 0 - 4.0486ms
+2024-12-12 12:14:03.618 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 12:14:04.396 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-12 12:14:04.397 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-12 12:14:05.192 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 12:14:05.193 +05:30 [INF] Hosting environment: Development
+2024-12-12 12:14:05.193 +05:30 [INF] Content root path: F:\RStack\RND\MultiDB_2024_12_12v1\MultiDB\MultiDB.Api\
+2024-12-12 12:14:05.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-12 12:14:05.973 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 729.1330ms
+2024-12-12 12:14:06.039 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-12 12:14:06.039 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-12 12:14:06.055 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 16.1963ms
+2024-12-12 12:14:06.231 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 192.5180ms
+2024-12-12 12:14:06.588 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-12 12:14:06.845 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 257.0105ms
+2024-12-12 12:14:46.910 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/GetAllUsers - -
+2024-12-12 12:14:47.076 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-12 12:14:47.087 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-12-12 12:14:47.088 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/GetAllUsers - - - 401 0 - 177.8030ms
+2024-12-12 12:14:55.786 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/GetClientDetails - -
+2024-12-12 12:14:55.800 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.GetClientDetails (MultiDB.Api)'
+2024-12-12 12:14:55.841 +05:30 [INF] Route matched with {action = "GetClientDetails", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientDetails() on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:14:56.959 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 12:14:56.977 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.GetClientDetails (MultiDB.Api) in 1123.308ms
+2024-12-12 12:14:56.981 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.GetClientDetails (MultiDB.Api)'
+2024-12-12 12:14:56.982 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/GetClientDetails - - - 200 - application/json;+charset=utf-8 1195.7486ms
+2024-12-12 12:16:10.181 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/Decrypt?sText=vqTD9rcgjWiexYZuSlRtYdWZLAhM%2Bvi5iBM%2FEXqAkoArb66enAl81dFWCabmql3dYiFIUb7ngWXt0s84X6s8S2I5xjZ7pcNv6vsdC1Gl9iQ2rETxQx4a373TftJd7y5NXE9Ctmf%2FiHkHJqH5nbIoU%2FoAlB659BO%2B82tjBbd2ZJhCgMnaUcs1CAqOad9TMl2iScASQNgqnd0RlWVS1yzt4pKliiG5dcL37Edb95hsJ7ayLV65KaiE7idI1Nz7R2j0pRmLLIl%2B%2BCXbVlL5Hk1oGiJ9C6RfRnkjiMOIGQO%2F5Tc2ISyezk7o%2F2Zb4wb5Ii2f - -
+2024-12-12 12:16:10.189 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api)'
+2024-12-12 12:16:10.208 +05:30 [INF] Route matched with {action = "Decrypt", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Decrypt(System.String) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:16:10.251 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-12-12 12:16:10.251 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api) in 42.6029ms
+2024-12-12 12:16:10.251 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api)'
+2024-12-12 12:16:10.251 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/Decrypt?sText=vqTD9rcgjWiexYZuSlRtYdWZLAhM%2Bvi5iBM%2FEXqAkoArb66enAl81dFWCabmql3dYiFIUb7ngWXt0s84X6s8S2I5xjZ7pcNv6vsdC1Gl9iQ2rETxQx4a373TftJd7y5NXE9Ctmf%2FiHkHJqH5nbIoU%2FoAlB659BO%2B82tjBbd2ZJhCgMnaUcs1CAqOad9TMl2iScASQNgqnd0RlWVS1yzt4pKliiG5dcL37Edb95hsJ7ayLV65KaiE7idI1Nz7R2j0pRmLLIl%2B%2BCXbVlL5Hk1oGiJ9C6RfRnkjiMOIGQO%2F5Tc2ISyezk7o%2F2Zb4wb5Ii2f - - - 200 - text/plain;+charset=utf-8 69.5485ms
+2024-12-12 12:17:29.436 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/GetUsers - -
+2024-12-12 12:17:29.437 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-12 12:17:29.441 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-12-12 12:17:29.444 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/GetUsers - - - 401 0 - 7.3844ms
+2024-12-12 12:18:14.621 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 12:18:15.076 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-12 12:18:15.077 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-12 12:18:15.483 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 12:18:15.484 +05:30 [INF] Hosting environment: Development
+2024-12-12 12:18:15.484 +05:30 [INF] Content root path: F:\RStack\RND\MultiDB_2024_12_12v1\MultiDB\MultiDB.Api\
+2024-12-12 12:18:15.608 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-12 12:18:16.081 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 473.2893ms
+2024-12-12 12:18:16.118 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-12 12:18:16.132 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-12 12:18:16.140 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 22.6279ms
+2024-12-12 12:18:16.243 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 111.5792ms
+2024-12-12 12:18:16.514 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-12 12:18:16.752 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 238.2616ms
+2024-12-12 12:18:33.993 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/GetAllUsers - -
+2024-12-12 12:18:34.123 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.GetAllUsers (MultiDB.Api)'
+2024-12-12 12:18:34.154 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllUsers() on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:18:35.138 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 12:18:35.151 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.GetAllUsers (MultiDB.Api) in 991.1108ms
+2024-12-12 12:18:35.155 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.GetAllUsers (MultiDB.Api)'
+2024-12-12 12:18:35.155 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/GetAllUsers - - - 200 - application/json;+charset=utf-8 1162.6080ms
+2024-12-12 12:19:02.767 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/LoginDetails?sUserName=string&sPassword=string - -
+2024-12-12 12:19:02.771 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.LoginDetails (MultiDB.Api)'
+2024-12-12 12:19:02.793 +05:30 [INF] Route matched with {action = "LoginDetails", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginDetails(System.String, System.String) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:19:02.891 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.ResponseToken'.
+2024-12-12 12:19:02.892 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.LoginDetails (MultiDB.Api) in 98.9446ms
+2024-12-12 12:19:02.892 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.LoginDetails (MultiDB.Api)'
+2024-12-12 12:19:02.893 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/LoginDetails?sUserName=string&sPassword=string - - - 200 - application/json;+charset=utf-8 125.8589ms
+2024-12-12 12:19:51.848 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7136/api/Clients/CreateClientUsers application/json 99
+2024-12-12 12:19:51.857 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClientUsers (MultiDB.Api)'
+2024-12-12 12:19:51.859 +05:30 [INF] Route matched with {action = "CreateClientUsers", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClientUsers(MultiDB.DTO.ClientUserDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:20:06.561 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 12:20:06.561 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateClientUsers (MultiDB.Api) in 14702.195ms
+2024-12-12 12:20:06.562 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClientUsers (MultiDB.Api)'
+2024-12-12 12:20:06.562 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7136/api/Clients/CreateClientUsers application/json 99 - 200 - application/json;+charset=utf-8 14714.0988ms
+2024-12-12 12:21:11.454 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7136/api/Clients/CreateClientUsers application/json 99
+2024-12-12 12:21:11.455 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClientUsers (MultiDB.Api)'
+2024-12-12 12:21:11.455 +05:30 [INF] Route matched with {action = "CreateClientUsers", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClientUsers(MultiDB.DTO.ClientUserDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:23:25.924 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 12:23:48.104 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-12 12:23:48.104 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-12 12:23:48.272 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 12:23:48.272 +05:30 [INF] Hosting environment: Development
+2024-12-12 12:23:48.272 +05:30 [INF] Content root path: F:\RStack\RND\MultiDB_2024_12_12v1\MultiDB\MultiDB.Api\
+2024-12-12 12:23:48.956 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-12 12:23:49.414 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 465.4398ms
+2024-12-12 12:23:49.430 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-12 12:23:49.430 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-12 12:23:49.436 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 5.6914ms
+2024-12-12 12:23:49.527 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 96.1245ms
+2024-12-12 12:23:49.812 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-12 12:23:50.033 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 221.5363ms
+2024-12-12 12:24:28.261 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/LoginDetails?sUserName=string&sPassword=string - -
+2024-12-12 12:24:28.402 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.LoginDetails (MultiDB.Api)'
+2024-12-12 12:24:28.447 +05:30 [INF] Route matched with {action = "LoginDetails", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult LoginDetails(System.String, System.String) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:24:29.308 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.ResponseToken'.
+2024-12-12 12:24:29.320 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.LoginDetails (MultiDB.Api) in 865.4728ms
+2024-12-12 12:24:29.324 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.LoginDetails (MultiDB.Api)'
+2024-12-12 12:24:29.324 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/LoginDetails?sUserName=string&sPassword=string - - - 200 - application/json;+charset=utf-8 1062.8697ms
+2024-12-12 12:24:44.270 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7136/api/Clients/CreateClientUsers application/json 99
+2024-12-12 12:24:44.346 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClientUsers (MultiDB.Api)'
+2024-12-12 12:24:44.347 +05:30 [INF] Route matched with {action = "CreateClientUsers", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClientUsers(MultiDB.DTO.ClientUserDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:25:02.387 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 12:25:02.390 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateClientUsers (MultiDB.Api) in 18043.3365ms
+2024-12-12 12:25:02.390 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClientUsers (MultiDB.Api)'
+2024-12-12 12:25:02.390 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7136/api/Clients/CreateClientUsers application/json 99 - 200 - application/json;+charset=utf-8 18120.0521ms
+2024-12-12 12:25:21.893 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/GetClientDetails - -
+2024-12-12 12:25:21.902 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.GetClientDetails (MultiDB.Api)'
+2024-12-12 12:25:21.904 +05:30 [INF] Route matched with {action = "GetClientDetails", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientDetails() on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:25:22.160 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 12:25:22.160 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.GetClientDetails (MultiDB.Api) in 256.1284ms
+2024-12-12 12:25:22.160 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.GetClientDetails (MultiDB.Api)'
+2024-12-12 12:25:22.160 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/GetClientDetails - - - 200 - application/json;+charset=utf-8 267.7527ms
+2024-12-12 12:25:33.397 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/GetUsers - -
+2024-12-12 12:25:33.399 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-12 12:25:33.407 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2024-12-12 12:25:33.407 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/GetUsers - - - 401 0 - 10.1467ms
+2024-12-12 12:25:43.524 +05:30 [INF] Request starting HTTP/1.1 POST https://localhost:7136/api/Clients/CreateClientUsers application/json 99
+2024-12-12 12:25:43.524 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClientUsers (MultiDB.Api)'
+2024-12-12 12:25:43.524 +05:30 [INF] Route matched with {action = "CreateClientUsers", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClientUsers(MultiDB.DTO.ClientUserDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:25:48.902 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 12:25:48.903 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateClientUsers (MultiDB.Api) in 5378.1915ms
+2024-12-12 12:25:48.903 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClientUsers (MultiDB.Api)'
+2024-12-12 12:25:48.903 +05:30 [INF] Request finished HTTP/1.1 POST https://localhost:7136/api/Clients/CreateClientUsers application/json 99 - 200 - application/json;+charset=utf-8 5378.8042ms
+2024-12-12 12:26:57.569 +05:30 [INF] Request starting HTTP/1.1 GET https://localhost:7136/api/Clients/GetUsers - -
+2024-12-12 12:26:57.578 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.GetUsers (MultiDB.Api)'
+2024-12-12 12:26:57.598 +05:30 [INF] Route matched with {action = "GetUsers", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetUsers() on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:26:59.087 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 12:26:59.087 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.GetUsers (MultiDB.Api) in 1489.3609ms
+2024-12-12 12:26:59.087 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.GetUsers (MultiDB.Api)'
+2024-12-12 12:26:59.087 +05:30 [INF] Request finished HTTP/1.1 GET https://localhost:7136/api/Clients/GetUsers - - - 200 - application/json;+charset=utf-8 1518.6285ms
+2024-12-12 12:27:27.363 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/Decrypt?sText=fWM1hkDWA3u7%2B9qxj4PnkbC3dLOmbCv1K2JxaLYrKVfuQ9A8utzjV6RKMVW6WNLudBNvuh6EcK%2FYGGTiveB2X%2FFkJRlkxHpUuouMVjvJg59xVgdK7DqJenLc3EnQqHnSrVhLxzPluvPxyldFxedauKZUxv0rYdAew1lfTYYVvFo6gOKNnyMGwDuL0UVWo2%2BHghZExvDJpaE4%2FxmMK7W%2Ffg%3D%3D - -
+2024-12-12 12:27:27.363 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api)'
+2024-12-12 12:27:27.364 +05:30 [INF] Route matched with {action = "Decrypt", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Decrypt(System.String) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:27:27.367 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-12-12 12:27:27.368 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api) in 3.74ms
+2024-12-12 12:27:27.368 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api)'
+2024-12-12 12:27:27.368 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/Decrypt?sText=fWM1hkDWA3u7%2B9qxj4PnkbC3dLOmbCv1K2JxaLYrKVfuQ9A8utzjV6RKMVW6WNLudBNvuh6EcK%2FYGGTiveB2X%2FFkJRlkxHpUuouMVjvJg59xVgdK7DqJenLc3EnQqHnSrVhLxzPluvPxyldFxedauKZUxv0rYdAew1lfTYYVvFo6gOKNnyMGwDuL0UVWo2%2BHghZExvDJpaE4%2FxmMK7W%2Ffg%3D%3D - - - 200 - text/plain;+charset=utf-8 5.3438ms
+2024-12-12 12:30:18.173 +05:30 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-12 12:30:52.345 +05:30 [INF] Now listening on: https://localhost:7136
+2024-12-12 12:30:52.345 +05:30 [INF] Now listening on: http://localhost:5148
+2024-12-12 12:30:54.438 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/index.html - -
+2024-12-12 12:30:58.436 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-12 12:30:58.437 +05:30 [INF] Hosting environment: Development
+2024-12-12 12:30:58.438 +05:30 [INF] Content root path: F:\RStack\RND\MultiDB_2024_12_12v1\MultiDB\MultiDB.Api\
+2024-12-12 12:31:00.163 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - -
+2024-12-12 12:31:00.168 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/index.html - - - 200 - text/html;charset=utf-8 5744.6202ms
+2024-12-12 12:31:00.178 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/_vs/browserLink - -
+2024-12-12 12:31:17.676 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_framework/aspnetcore-browser-refresh.js - - - 200 12354 application/javascript;+charset=utf-8 17506.8611ms
+2024-12-12 12:31:17.880 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17701.5287ms
+2024-12-12 12:31:18.119 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - -
+2024-12-12 12:31:18.466 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 347.2951ms
+2024-12-12 12:31:34.231 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57
+2024-12-12 12:31:34.607 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 12:31:34.734 +05:30 [INF] Route matched with {action = "CreateClients", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateClients(MultiDB.DTO.ClientsDTO) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:31:43.495 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 12:31:43.533 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api) in 8770.9641ms
+2024-12-12 12:31:43.542 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.CreateClients (MultiDB.Api)'
+2024-12-12 12:31:43.542 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7136/api/Clients/CreateClients application/json 57 - 200 - application/json;+charset=utf-8 9310.7153ms
+2024-12-12 12:32:22.985 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/GetClientDetails - -
+2024-12-12 12:32:22.998 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.GetClientDetails (MultiDB.Api)'
+2024-12-12 12:32:23.044 +05:30 [INF] Route matched with {action = "GetClientDetails", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetClientDetails() on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:32:23.775 +05:30 [INF] Executing OkObjectResult, writing value of type 'MultiDB.Models.CommonModel.Response'.
+2024-12-12 12:32:23.775 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.GetClientDetails (MultiDB.Api) in 731.1392ms
+2024-12-12 12:32:23.775 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.GetClientDetails (MultiDB.Api)'
+2024-12-12 12:32:23.776 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/GetClientDetails - - - 200 - application/json;+charset=utf-8 790.7742ms
+2024-12-12 12:32:53.832 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7136/api/Clients/Decrypt?sText=vqTD9rcgjWiexYZuSlRtYdWZLAhM%2Bvi5iBM%2FEXqAkoArb66enAl81dFWCabmql3dYiFIUb7ngWXt0s84X6s8S2I5xjZ7pcNv6vsdC1Gl9iQ2rETxQx4a373TftJd7y5NXE9Ctmf%2FiHkHJqH5nbIoU%2FoAlB659BO%2B82tjBbd2ZJhCgMnaUcs1CAqOad9TMl2iScASQNgqnd0RlWVS1yzt4pKliiG5dcL37Edb95hsJ7ayLV65KaiE7idI1Nz7R2j0pRmLLIl%2B%2BCXbVlL5Hk1oGiJ9C6RfRnkjiMOIGQO%2F5Tc2ISyezk7o%2F2Zb4wb5Ii2f - -
+2024-12-12 12:32:53.848 +05:30 [INF] Executing endpoint 'MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api)'
+2024-12-12 12:32:53.853 +05:30 [INF] Route matched with {action = "Decrypt", controller = "Clients"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Decrypt(System.String) on controller MultiDB.Api.Controllers.ClientsController (MultiDB.Api).
+2024-12-12 12:32:53.888 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-12-12 12:32:53.889 +05:30 [INF] Executed action MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api) in 36.1985ms
+2024-12-12 12:32:53.890 +05:30 [INF] Executed endpoint 'MultiDB.Api.Controllers.ClientsController.Decrypt (MultiDB.Api)'
+2024-12-12 12:32:53.890 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7136/api/Clients/Decrypt?sText=vqTD9rcgjWiexYZuSlRtYdWZLAhM%2Bvi5iBM%2FEXqAkoArb66enAl81dFWCabmql3dYiFIUb7ngWXt0s84X6s8S2I5xjZ7pcNv6vsdC1Gl9iQ2rETxQx4a373TftJd7y5NXE9Ctmf%2FiHkHJqH5nbIoU%2FoAlB659BO%2B82tjBbd2ZJhCgMnaUcs1CAqOad9TMl2iScASQNgqnd0RlWVS1yzt4pKliiG5dcL37Edb95hsJ7ayLV65KaiE7idI1Nz7R2j0pRmLLIl%2B%2BCXbVlL5Hk1oGiJ9C6RfRnkjiMOIGQO%2F5Tc2ISyezk7o%2F2Zb4wb5Ii2f - - - 200 - text/plain;+charset=utf-8 58.1736ms
